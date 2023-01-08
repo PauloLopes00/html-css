@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(188, 233, 188, 0.795);
+}
+
+h1{
+    color: rgb(8, 230, 78);
+}
+h2{
+    color: green;
+}
+
+#principal{
+    text-align: center;
+    color: rgb(65, 54, 54);
+   ;
+    
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    width: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px rgb(140, 214, 140);
+    margin: auto;
+}

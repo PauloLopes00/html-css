@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+@font-face {
+    font-family: 'link';
+    src: url('fonts/Reach Story.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+tipos de format
+-opentype(otf)
+-truetype(ttf)
+-enbedded-opentype
+-truetype-aat (apple advanced typography)
+-svg
+*/
+body {
+    background-image: linear-gradient(to right, #f1D8c9, #F2C3A7);
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #775f518c;
+}
+
+h1{
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px black ;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h2{
+    color: #125189;
+    font-family: 'link', monospace;
+    font-weight: normal;
+
+}
+
+p {
+    text-align: justify;
+}

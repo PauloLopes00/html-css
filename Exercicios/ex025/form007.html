@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <option value="" selected>--secione--</option>
+                <optgroup label="Sudeste">
+                    <option value="mg">laresd</option>
+                    <option value="os">osoreo</option>
+                    <option value="mc">minha cidade</option>
+                    <option value="g">minas geradeis</option>
+                    <option value="mg">minas gabriel</option>
+                    <option value="mg">são paulo</option>
+                </optgroup>
+
+                <optgroup label="nordeste">
+                    <option value="mg">laresd</option>
+                    <option value="os">osoreo</option>
+                    <option value="mc">minha cidade</option>
+                    <option value="g">minas geradeis</option>
+                    <option value="mg">minas gabriel</option>
+                    <option value="mg">são paulo</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>administrador</option>
+                <option>trader</option>
+                <option>mecanico</option>
+                <option>auxiliar</option>
+            </datalist>
+
+        </p>
+        <p>
+            <label for="imen">Mensagem:</label><br>
+            <textarea name="mensagem" id="imen" cols="30" rows="10" placeholder="digite aqui"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
