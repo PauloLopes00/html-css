@@ -6,7 +6,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-main{
+body{
     background-color: rgb(59, 57, 57);
     color: white;
 }
@@ -31,7 +31,7 @@ p{
 header > p{
     text-align: end;
     padding: 5px;
-    margin: 10px;
+    margin: 9px;
 }
 
 #image{
@@ -42,10 +42,23 @@ header > p{
     border-radius: 50%;
 }
 
+h2{
+    color: rgb(185, 79, 79);
+    padding: 0px 20px;
+    margin: 5px;
+    text-decoration: underline;
+}
+
 p.sobre{
-    text-align: justify;
-    padding: 5px;
+    text-align: center;
+    padding: 10px;
     margin: auto;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+    color: rgb(189, 177, 177);
 }
 
 .img{
@@ -53,4 +66,25 @@ p.sobre{
     margin: auto;
     padding: 20px 0px;
     width: 200px;
+}
+
+.p{
+    padding: 10px;
+}
+
+ul{
+    padding-left: 50px;
+    margin: 10px;
+}
+
+a.linkproj{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+a.linkproj:hover{
+    text-decoration: underline;
+    color: blue;
 }
