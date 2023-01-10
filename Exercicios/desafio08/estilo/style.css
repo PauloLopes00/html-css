@@ -42,12 +42,12 @@ menu > ul {
 }
 
 menu > ul > li > a{
+    background-color: rgb(87,87,87);
+    color: white;
     display: block;
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87,87,87);
-    color: white;
     border-top: 2px solid gray;
 }
 

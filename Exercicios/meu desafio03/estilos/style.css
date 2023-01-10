@@ -11,15 +11,13 @@ body{
     color: white;
 }
 
+
 span{
     color: rgb(185, 79, 79);
 }
 
-header{
-    display: inline-flex;
-}
-
 h1{
+    text-align: center;
     padding: 5px;
     margin: 5px;
 }
@@ -28,10 +26,40 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header > p{
-    text-align: end;
-    padding: 5px;
-    margin: 9px;
+#burguer{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+menu > ul {
+    list-style-type:none;
+}
+
+menu > ul > li > a{
+    background-color: rgb(87,87,87);
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
 }
 
 #image{
@@ -77,14 +105,40 @@ ul{
     margin: 10px;
 }
 
-a.linkproj{
-    padding: 10px;
+div.link{
+    background-color:rgb(87,87,87);
+    text-align: center;
+    padding: 5px;
+}
+
+.linkproj{
     text-decoration: none;
     color: white;
-    
 }
 
 a.linkproj:hover{
     text-decoration: underline;
     color: blue;
 }
+
+
+div#contato{
+    text-align: center;
+}
+
+div#contato > a{
+    padding-left: 5px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(231, 113, 113);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
