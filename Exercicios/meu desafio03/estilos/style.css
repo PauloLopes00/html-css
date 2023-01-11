@@ -11,7 +11,6 @@ body{
     color: white;
 }
 
-
 span{
     color: rgb(185, 79, 79);
 }
@@ -100,15 +99,16 @@ h3{
     padding: 10px;
 }
 
-ul{
-    padding-left: 50px;
-    margin: 10px;
+.projetos > ul > li{
+    margin: 0px 80px;
+    margin-bottom: 5px;
 }
 
 div.link{
     background-color:rgb(87,87,87);
     text-align: center;
-    padding: 5px;
+    margin:20px 0px;
+    padding: 3px;
 }
 
 .linkproj{
