@@ -11,12 +11,17 @@ body{
     color: white;
 }
 
+nav{
+    justify-content: space-between;
+}
+
 span{
     color: rgb(185, 79, 79);
 }
 
 h1{
-    text-align: center;
+    font-size: 2em;
+    text-align: left;
     padding: 5px;
     margin: 5px;
 }
@@ -26,11 +31,15 @@ p{
 }
 
 #burguer{
+    position: absolute;
+    right: 10px;
+    top: 10px;
     background-color: rgb(48, 48, 48);
     color: white;
-    display: block;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
 }
 

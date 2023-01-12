@@ -1,25 +1,34 @@
 @charset "utf-8";
 
 @media screen and (min-width: 768px) {
-    header{
-        display: inline-flex;
+    nav{
+        justify-content: space-between;
     }
     h1{
+        display: block;
         text-align: left;
+        font-size: 2em;
     }
     #burguer{
         display: none;
     }
     menu{
         display: block;
-        position: absolute;
     }
-    menu > ul > li{
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: inline-block;
-        margin: 0px;
+
+    nav, menu > ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    menu > ul > li > a{ 
+       width: 80px;
+       background-color: rgb(59, 57, 57);
+       border: none;
+       transition-duration: 1s;
+    }
+
+    li{
+        margin-top: 5px;
     }
 }
